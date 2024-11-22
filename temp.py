@@ -9,6 +9,14 @@ def celsius_to_fahrenheit(celsius):
     """
     return (celsius * 9/5) + 32
 def fahrenheit_to_celsius(fahrenheit):
+    """Converts a temperature from Fahrenheit to Celsius.
+
+    Args:
+        fahrenheit: The temperature in Fahrenheit.
+
+    Returns:
+        The temperature in Celsius.
+    """
     return (fahrenheit - 32) * 5/9
 def test_should_celsius_to_fahreneheit():
     assert celsius_to_fahrenheit(100) == 212
