@@ -22,3 +22,7 @@ def test_should_celsius_to_fahreneheit():
     assert celsius_to_fahrenheit(100) == 212
 def test_should_return_fahreneheit_to_celsius():
     assert fahrenheit_to_celsius(212) == 100
+def test_should_return_true_for_even_number():
+    assert even(4) is True
+def test_should_return_false_for_odd_number():
+    assert even(5) is False
