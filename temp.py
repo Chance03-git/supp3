@@ -19,6 +19,14 @@ def fahrenheit_to_celsius(fahrenheit):
     """
     return (fahrenheit - 32) * 5/9
 def even(num):
+    """Checks if a number is even.
+
+    Args:
+        number: The integer to check.
+
+    Returns:
+        True if the number is even, False otherwise.
+    """    
     return num % 2 == 0
 def test_should_celsius_to_fahreneheit():
     assert celsius_to_fahrenheit(100) == 212
