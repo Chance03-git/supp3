@@ -18,6 +18,8 @@ def fahrenheit_to_celsius(fahrenheit):
         The temperature in Celsius.
     """
     return (fahrenheit - 32) * 5/9
+def even(num):
+    return num % 2 == 0
 def test_should_celsius_to_fahreneheit():
     assert celsius_to_fahrenheit(100) == 212
 def test_should_return_fahreneheit_to_celsius():
